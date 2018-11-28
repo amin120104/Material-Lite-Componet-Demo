@@ -1,0 +1,17 @@
+@import 'global';
+@import 'cards';
+@import 'layout';
+
+.align-center {
+    text-align: center;
+}
+
+.content-wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.single-content {
+    float: left;
+    margin-right: 30px;
+}

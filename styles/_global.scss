@@ -1,0 +1,34 @@
+@import './../node_modules/material-design-lite/material.min';
+$primary-color: rgb(170, 172, 255);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    background-color: $primary-color;
+}
+
+.container {
+    width: 88%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+a {
+    color: rgb(28, 61, 168);
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+}
