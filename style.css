@@ -7522,6 +7522,18 @@ a {
   word-spacing: 5px;
 }
 
+.divider {
+  margin-bottom: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.padding-0 {
+  padding: 0px;
+}
+
 .demo-card-wide.mdl-card {
   width: 512px;
 }
@@ -7545,6 +7557,14 @@ a {
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
   color: white;
+}
+
+.demo-list-control {
+  width: 300px;
+}
+
+.demo-list-radio {
+  display: inline;
 }
 
 .align-center {

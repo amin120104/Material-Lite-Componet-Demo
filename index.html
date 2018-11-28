@@ -125,62 +125,303 @@
         <h3>Navigation Layout</h3>
         <a href="layout.html">Layout Demo link</a>
     </div>
-    
+ 
     <!-- material lite grid -->
-    <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--12-col">
-            <h3>Responsive Test</h3>
+    <div class="container">
+        <div class="mdl-grid padding-0">
+            <div class="mdl-cell mdl-cell--12-col">
+                <h3>Responsive Test</h3>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique, corporis nulla voluptatum
+                nam repudiandae non illo obcaecati possimus quis earum consequuntur! Ipsum perferendis numquam quis a iure
+                earum repudiandae!
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit magni, dolores debitis molestias
+                repudiandae corporis ad commodi dicta nemo tempore in aperiam labore sunt, veritatis possimus repellendus
+                nesciunt laboriosam quaerat?
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, itaque ipsum. Laudantium placeat velit enim harum
+                commodi illum fuga, architecto atque vero! Exercitationem accusantium, nihil doloremque itaque optio eum aut.
+            </div>
         </div>
-        <div class="mdl-cell mdl-cell--4-col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, similique, corporis nulla voluptatum nam repudiandae non illo obcaecati possimus quis earum consequuntur! Ipsum perferendis numquam quis a iure earum repudiandae!
-        </div>
-        <div class="mdl-cell mdl-cell--4-col">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit magni, dolores debitis molestias repudiandae corporis ad commodi dicta nemo tempore in aperiam labore sunt, veritatis possimus repellendus nesciunt laboriosam quaerat?
-        </div>
-        <div class="mdl-cell mdl-cell--4-col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, itaque ipsum. Laudantium placeat velit enim harum commodi illum fuga, architecto atque vero! Exercitationem accusantium, nihil doloremque itaque optio eum aut.
+    </div>
+  
+    <!-- tab design -->
+    <div class="container">
+        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-tabs__tab-bar">
+                <a href="#about-panel" class="mdl-tabs__tab is-active">About the Beatles</a>
+                <a href="#members-panel" class="mdl-tabs__tab">Members</a>
+                <a href="#albums-panel" class="mdl-tabs__tab">Discography Discography</a>
+            </div>
+            <div class="mdl-tabs__panel is-active" id="about-panel">
+                <p><b>The Beatles</b> were a four-piece musical group from Liverpool, England.
+                    Formed in 1960, their career spanned just over a decade, yet they are widely
+                    regarded as the most influential band in history.</p>
+                <p>Their songs are among the best-loved music of all time. It is said that every
+                    minute of every day, a radio station somewhere is playing a Beatles song.</p>
+            </div>
+            <div class="mdl-tabs__panel" id="members-panel">
+                <p>The Beatles' members were:</p>
+                <ul>
+                    <li>John Lennon (1940-1980)</li>
+                    <li>Paul McCartney (1942-)</li>
+                    <li>George Harrison (1943-2001)</li>
+                    <li>Ringo Starr (1940-)</li>
+                </ul>
+            </div>
+            <div class="mdl-tabs__panel" id="albums-panel">
+                <p>The Beatles' original UK LPs, in order of release:</p>
+                <ol>
+                    <li>Please Please Me (1963)</li>
+                    <li>With the Beatles (1963)</li>
+                    <li>A Hard Day's Night (1964)</li>
+                    <li>Beatles for Sale (1964)</li>
+                    <li>Help! (1965)</li>
+                    <li>Rubber Soul (1965)</li>
+                    <li>Revolver (1966)</li>
+                    <li>Sgt. Pepper's Lonely Hearts Club Band (1967)</li>
+                    <li>The Beatles ("The White Album", 1968)</li>
+                    <li>Yellow Submarine (1969)</li>
+                    <li>Abbey Road (1969)</li>
+                    <li>Let It Be (1970)</li>
+                </ol>
+            </div>
         </div>
     </div>
 
-    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
-        <div class="mdl-tabs__tab-bar">
-            <a href="#about-panel" class="mdl-tabs__tab is-active">About the Beatles</a>
-            <a href="#members-panel" class="mdl-tabs__tab">Members</a>
-            <a href="#albums-panel" class="mdl-tabs__tab">Discography Discography</a>
-        </div>
-        <div class="mdl-tabs__panel is-active" id="about-panel">
-            <p><b>The Beatles</b> were a four-piece musical group from Liverpool, England.
-                Formed in 1960, their career spanned just over a decade, yet they are widely
-                regarded as the most influential band in history.</p>
-            <p>Their songs are among the best-loved music of all time. It is said that every
-                minute of every day, a radio station somewhere is playing a Beatles song.</p>
-        </div>
-        <div class="mdl-tabs__panel" id="members-panel">
-            <p>The Beatles' members were:</p>
-            <ul>
-                <li>John Lennon (1940-1980)</li>
-                <li>Paul McCartney (1942-)</li>
-                <li>George Harrison (1943-2001)</li>
-                <li>Ringo Starr (1940-)</li>
+    <!-- Lists -->
+    <div class="container">
+        <h3>Lists</h3>
+        <div class="content-wrapper">
+            <ul class="demo-list-control mdl-list">
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        <i class="material-icons  mdl-list__item-avatar">person</i>
+                        Bryan Cranston
+                    </span>
+                    <span class="mdl-list__item-secondary-action">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+                            <input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input" checked />
+                        </label>
+                    </span>
+                </li>
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        <i class="material-icons  mdl-list__item-avatar">person</i>
+                        Aaron Paul
+                    </span>
+                    <span class="mdl-list__item-secondary-action">
+                        <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-1">
+                            <input type="radio" id="list-option-1" class="mdl-radio__button" name="options" value="1"
+                                checked />
+                        </label>
+                    </span>
+                </li>
+                <li class="mdl-list__item">
+                    <span class="mdl-list__item-primary-content">
+                        <i class="material-icons  mdl-list__item-avatar">person</i>
+                        Bob Odenkirk
+                    </span>
+                    <span class="mdl-list__item-secondary-action">
+                        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
+                            <input type="checkbox" id="list-switch-1" class="mdl-switch__input" checked />
+                        </label>
+                    </span>
+                </li>
             </ul>
         </div>
-        <div class="mdl-tabs__panel" id="albums-panel">
-            <p>The Beatles' original UK LPs, in order of release:</p>
-            <ol>
-                <li>Please Please Me (1963)</li>
-                <li>With the Beatles (1963)</li>
-                <li>A Hard Day's Night (1964)</li>
-                <li>Beatles for Sale (1964)</li>
-                <li>Help! (1965)</li>
-                <li>Rubber Soul (1965)</li>
-                <li>Revolver (1966)</li>
-                <li>Sgt. Pepper's Lonely Hearts Club Band (1967)</li>
-                <li>The Beatles ("The White Album", 1968)</li>
-                <li>Yellow Submarine (1969)</li>
-                <li>Abbey Road (1969)</li>
-                <li>Let It Be (1970)</li>
-            </ol>
+    </div>
+    
+    <!-- Loading -->
+    <div class="container">
+        <h3>Loading (Progress + Spinner)</h3>
+        <!-- MDL Progress Bar with Indeterminate Progress -->
+        <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate divider"></div>
+    
+        <!-- MDL Spinner Component -->
+        <div class="mdl-spinner mdl-js-spinner is-active"></div>
+    </div>
+    
+    <!-- Menus -->
+    <div class="container">
+        <h3>Menus (Submenu)</h3>
+        <div class="content-wrapper">
+            <!-- Left aligned menu below button -->
+            <button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+            </button>
+    
+            <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left">
+                <li class="mdl-menu__item">Some Action</li>
+                <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
+                <li disabled class="mdl-menu__item">Disabled Action</li>
+                <li class="mdl-menu__item">Yet Another Action</li>
+            </ul>
         </div>
+    </div>
+    
+    <!-- Slider -->
+    <div class="container">
+        <h3>Slider (Value inc/dec)</h3>
+        <div class="content-wrapper">
+            <!-- Slider with Starting Value -->
+            <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+    
+            <p style="width:300px">
+                <input class="mdl-slider mdl-js-slider" type="range" id="s1" min="0" max="10" value="4" step="2">
+            </p>
+    
+        </div>
+    </div>
+    
+    <!-- Snackbar -->
+    <div class="container">
+        <h3>Snackbar</h3>
+        <div class="content-wrapper">
+            <button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Snackbar</button>
+            <div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+                <div class="mdl-snackbar__text"></div>
+                <button class="mdl-snackbar__action" type="button"></button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Toggles -->
+    <div class="container">
+        <h3>Toggles</h3>
+        <div class="content-wrapper">
+    
+            <!-- checkbox -->
+            <div class="single-content">
+                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                    <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                    <span class="mdl-checkbox__label">Checkbox</span>
+                </label>
+                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                    <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                    <span class="mdl-checkbox__label">Checkbox</span>
+                </label>
+            </div>
+    
+            <!-- Radiobutton -->
+            <div class="single-content">
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect display-block" for="option-1">
+                    <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                    <span class="mdl-radio__label">First</span>
+                </label>
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                    <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                    <span class="mdl-radio__label">Second</span>
+                </label>
+            </div>
+    
+            <!-- Switch -->
+            <div class="single-content">
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+                    <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+                    <span class="mdl-switch__label"></span>
+                </label>
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
+                    <input type="checkbox" id="switch-2" class="mdl-switch__input">
+                    <span class="mdl-switch__label"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="container">
+        <h3>Table</h3>
+        <div class="content-wrapper">
+            <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+                <thead>
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Material</th>
+                        <th>Quantity</th>
+                        <th>Unit price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+                        <td>50</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+                        <td>10</td>
+                        <td>$2.35</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Text Fields -->
+    <div class="container">
+        <h3>Text Fields</h3>
+        <div class="container-wrapper">
+            <!-- Textfield with Floating Label -->
+            
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label" for="sample3">Text...</label>
+                </div>
+            </form>
+            <!-- Numeric Textfield with Floating Label -->
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+                    <label class="mdl-textfield__label" for="sample4">Number...</label>
+                    <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+            </form>
+
+            <!-- Expandable Textfield -->
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" id="sample6">
+                        <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- TOOLTIPS -->
+    <div class="container">
+        <h3>TOOLTIPS</h3>
+        <div class="container-wrapper">
+            <!-- Rich Tooltip -->
+            <div id="tt3" class="icon material-icons">cloud_upload</div>
+            <div class="mdl-tooltip" data-mdl-for="tt3">
+                Upload <strong>file.zip</strong>
+            </div>
+            <!-- Multiline Tooltip -->
+            <div id="tt4" class="icon material-icons">share</div>
+            <div class="mdl-tooltip" for="tt4">
+                Share your content<br>via social media
+            </div>
+        </div>
+    </div>
+
+    <!-- End -->
+    <div class="container">
+        <h1 class="align-center">End</h1>
     </div>
 
     <!--Script link-->
